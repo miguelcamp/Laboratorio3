@@ -1,0 +1,120 @@
+h1{
+    font-size: larger;
+    color: white;
+
+}
+.header{
+    background-image: url("images/books.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    color: yellowgreen;
+    background-image: url("images/books.jpg");
+    background-size: cover;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+
+.navbar {
+  background:#957056;
+}
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  color: red;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+.navbar-brand:hover
+{
+  color: red;
+}
+
+.description {
+  left: 50%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+}
+.description h1 {
+  color: orange;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;/*Bordes negros de texto*/
+}
+.description p {
+  color: white;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.description button {
+  border:1px solid orangered;
+  background:orange;
+  border-radius: 0;
+  color:white;
+}
+.description button:hover {
+  border:1px solid black;
+  background:orangered;
+  color:black;
+}
+.features {
+  margin: 4em auto;
+  padding: 1em;
+  position: relative;
+}
+.feature-title {
+  color: orange;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.features img {
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 16px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #957056;
+  border-color: brown;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #664d3a;
+  border-color: #957056;
+}
+.btn-link
+{
+  color: black;
+}
+.btn-log{
+  position: absolute;
+  left: 95%;
+  top: 95%;
+}
+th{
+  color: lightcoral;
+}
+table
+{
+  background: #957056;
+  border: 1px solid black;
+  padding: 15px;
+  text-align: left;
+}
